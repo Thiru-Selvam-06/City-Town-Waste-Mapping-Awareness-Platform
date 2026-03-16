@@ -220,9 +220,9 @@ Democracy in action:
 │                   User Interface                    │
 │  ┌──────────────────────────────────────────────┐   │
 │  │         React 19 (Concurrent Mode)           │   │
-│  │  • useState, useEffect, useContext Hooks    │   │
-│  │  • Component-based Architecture             │   │
-│  │  • Optimized Re-rendering                   │   │
+│  │  • useState, useEffect, useContext Hooks     │   │
+│  │  • Component-based Architecture              │   │
+│  │  • Optimized Re-rendering                    │   │
 │  └──────────────────────────────────────────────┘   │
 └─────────────────────────────────────────────────────┘
                         │
@@ -231,10 +231,10 @@ Democracy in action:
 │                 Styling Layer                       │
 │  ┌──────────────────────────────────────────────┐   │
 │  │         Tailwind CSS 3.4                     │   │
-│  │  • Utility-first Styling                    │   │
-│  │  • Responsive Design                        │   │
-│  │  • Custom Theme Configuration               │   │
-│  │  • Dark Mode Support (planned)              │   │
+│  │  • Utility-first Styling                     │   │
+│  │  • Responsive Design                         │   │
+│  │  • Custom Theme Configuration                │   │
+│  │  • Dark Mode Support (planned)               │   │
 │  └──────────────────────────────────────────────┘   │
 └─────────────────────────────────────────────────────┘
                         │
@@ -242,11 +242,11 @@ Democracy in action:
 ┌─────────────────────────────────────────────────────┐
 │              Mapping & Location                     │
 │  ┌──────────────────────────────────────────────┐   │
-│  │    Leaflet 1.9 + React-Leaflet 5.0          │   │
-│  │  • OpenStreetMap Tiles                      │   │
-│  │  • Custom Markers & Popups                  │   │
-│  │  • Geolocation API Integration              │   │
-│  │  • Circle Markers for Waste Points          │   │
+│  │    Leaflet 1.9 + React-Leaflet 5.0           │   │
+│  │  • OpenStreetMap Tiles                       │   │
+│  │  • Custom Markers & Popups                   │   │
+│  │  • Geolocation API Integration               │   │
+│  │  • Circle Markers for Waste Points           │   │
 │  └──────────────────────────────────────────────┘   │
 └─────────────────────────────────────────────────────┘
                         │
@@ -254,12 +254,12 @@ Democracy in action:
 ┌─────────────────────────────────────────────────────┐
 │             Backend & Database                      │
 │  ┌──────────────────────────────────────────────┐   │
-│  │         Supabase (BaaS Platform)            │   │
-│  │  • PostgreSQL Database                      │   │
-│  │  • Row Level Security (RLS)                 │   │
-│  │  • Real-time Subscriptions                  │   │
-│  │  • Authentication & Authorization           │   │
-│  │  • Storage for Images                       │   │
+│  │         Supabase (BaaS Platform)             │   │
+│  │  • PostgreSQL Database                       │   │
+│  │  • Row Level Security (RLS)                  │   │
+│  │  • Real-time Subscriptions                   │   │
+│  │  • Authentication & Authorization            │   │
+│  │  • Storage for Images                        │   │
 │  └──────────────────────────────────────────────┘   │
 └─────────────────────────────────────────────────────┘
                         │
@@ -267,11 +267,11 @@ Democracy in action:
 ┌─────────────────────────────────────────────────────┐
 │             Build & Development                     │
 │  ┌──────────────────────────────────────────────┐   │
-│  │              Vite 7                         │   │
-│  │  • Lightning-fast HMR                       │   │
-│  │  • Optimized Production Builds              │   │
-│  │  • ES Modules Native                        │   │
-│  │  • Plugin Ecosystem                         │   │
+│  │              Vite 7                          │   │
+│  │  • Lightning-fast HMR                        │   │
+│  │  • Optimized Production Builds               │   │
+│  │  • ES Modules Native                         │   │
+│  │  • Plugin Ecosystem                          │   │
 │  └──────────────────────────────────────────────┘   │
 └─────────────────────────────────────────────────────┘
 ```
@@ -353,28 +353,28 @@ Democracy in action:
               │
      ┌────────▼─────────────────────────────────────┐
      │          Supabase Backend                    │
-     │  ┌──────────────────────────────────────┐   │
-     │  │        PostgreSQL Database           │   │
-     │  │  • waste_reports                     │   │
-     │  │  • recycling_centers                 │   │
-     │  │  • user_profiles                     │   │
-     │  └──────────────────────────────────────┘   │
-     │  ┌──────────────────────────────────────┐   │
-     │  │        Authentication                │   │
-     │  │  • Email/Password                    │   │
-     │  │  • OAuth (future)                    │   │
-     │  │  • Role-based Access                 │   │
-     │  └──────────────────────────────────────┘   │
-     │  ┌──────────────────────────────────────┐   │
-     │  │        Storage Buckets               │   │
-     │  │  • waste-images/                     │   │
-     │  │  • user-avatars/ (planned)           │   │
-     │  └──────────────────────────────────────┘   │
-     │  ┌──────────────────────────────────────┐   │
-     │  │     Real-time Subscriptions          │   │
-     │  │  • Live report updates               │   │
-     │  │  • Status change notifications       │   │
-     │  └──────────────────────────────────────┘   │
+     │  ┌──────────────────────────────────────┐    │
+     │  │        PostgreSQL Database           │    │
+     │  │  • waste_reports                     │    │
+     │  │  • recycling_centers                 │    │
+     │  │  • user_profiles                     │    │
+     │  └──────────────────────────────────────┘    │
+     │  ┌──────────────────────────────────────┐    │
+     │  │        Authentication                │    │
+     │  │  • Email/Password                    │    │
+     │  │  • OAuth (future)                    │    │
+     │  │  • Role-based Access                 │    │
+     │  └──────────────────────────────────────┘    │
+     │  ┌──────────────────────────────────────┐    │
+     │  │        Storage Buckets               │    │
+     │  │  • waste-images/                     │    │
+     │  │  • user-avatars/ (planned)           │    │
+     │  └──────────────────────────────────────┘    │
+     │  ┌──────────────────────────────────────┐    │
+     │  │     Real-time Subscriptions          │    │
+     │  │  • Live report updates               │    │
+     │  │  • Status change notifications       │    │
+     │  └──────────────────────────────────────┘    │
      └──────────────────────────────────────────────┘
 ```
 
@@ -889,11 +889,11 @@ WHERE id = (
 ┌───────────────────────▼─────────────────────────────────┐
 │                    user_profiles                        │
 │  ─────────────────────────────────────────────────────  │
-│  • id (UUID, PK, FK → auth.users)                      │
+│  • id (UUID, PK, FK → auth.users)                       │
 │  • username (TEXT, UNIQUE)                              │
 │  • full_name (TEXT)                                     │
 │  • avatar_url (TEXT)                                    │
-│  • role (TEXT) [citizen, admin, moderator]             │
+│  • role (TEXT) [citizen, admin, moderator]              │
 │  • reports_submitted (INT)                              │
 │  • points (INT)                                         │
 │  • created_at (TIMESTAMP)                               │
@@ -905,15 +905,15 @@ WHERE id = (
 │                    waste_reports                        │
 │  ─────────────────────────────────────────────────────  │
 │  • id (UUID, PK)                                        │
-│  • type (TEXT) [overflowing, illegal-dump, litter,     │
+│  • type (TEXT) [overflowing, illegal-dump, litter,      │
 │                 recycling]                              │
 │  • description (TEXT)                                   │
-│  • status (TEXT) [pending, in-progress, resolved]      │
+│  • status (TEXT) [pending, in-progress, resolved]       │
 │  • latitude (DOUBLE PRECISION)                          │
 │  • longitude (DOUBLE PRECISION)                         │
 │  • location_name (TEXT)                                 │
 │  • image_url (TEXT)                                     │
-│  • user_id (UUID, FK → auth.users, nullable)           │
+│  • user_id (UUID, FK → auth.users, nullable)            │
 │  • upvotes (INT, default 0)                             │
 │  • created_at (TIMESTAMP)                               │
 │  • updated_at (TIMESTAMP)                               │
