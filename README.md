@@ -1962,8 +1962,8 @@ Thanks to all our contributors (you could be next!):
 <div align="center">
 
 [![GitHub](https://img.shields.io/badge/GitHub-Thiru--Selvam--06-181717?style=for-the-badge&logo=github)](https://github.com/Thiru-Selvam-06)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/your-profile)
-[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail)](mailto:your.email@example.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](www.linkedin.com/in/thiru-selvam-081017342)
+[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail)](mailto:thiruselvam400@gmail.com)
 
 </div>
 
